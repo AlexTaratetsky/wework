@@ -1,0 +1,1 @@
+Please rename *.j files to *.js

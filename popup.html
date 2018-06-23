@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 10px;
+      margin: 1px 1px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+      width: 250px;
+      height: 20px;
+      }
+      .buttonbuilding {
+      background-color: white;
+      color: black;
+      border: 2px solid #555555;
+      }
+
+      .buttonbuilding:hover {
+        background-color: #555555;
+        color: white;
+      }
+      .DivToScroll{   
+          background-color: #F5F5F5;
+          border: 1px solid #DDDDDD;
+          border-radius: 4px 0 4px 0;
+          color: #3B3C3E;
+          font-size: 12px;
+          font-weight: bold;
+          left: -1px;
+          padding: 5px 7px 5px;
+      }
+      .DivWithScroll{
+          max-height: 400px;
+          overflow:auto;
+          overflow-x:hidden;
+      }
+      ul{
+          list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="DivToScroll">
+      <p align = "center" style="color: #555555">WeWork Favorite Locations</p>
+      <div id="favorite" class="DivWithScroll">
+          <ul id="favoriteList"></ul>
+      </div>
+    </div>
+    <script src="popup.js" type="text/javascript"></script>
+  </body>
+</html>

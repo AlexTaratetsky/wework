@@ -1,0 +1,28 @@
+{
+  "name": "WeWork Favorite Location",
+  "version": "1.0",
+  "description": "Manage your favorite WeWork locations",
+  "permissions": ["declarativeContent","storage", "tabs", "https://*/*"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_title":"WeWork Favorite Location",
+    "default_icon": {
+      "16": "images/Icon16.png",
+      "32": "images/Icon32.png",
+      "48": "images/Icon48.png",
+      "128": "images/Icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/Icon16.png",
+    "32": "images/Icon32.png",
+    "48": "images/Icon48.png",
+    "128": "images/Icon128.png"
+  },
+  "author": "Alexander Taratetsky",
+  "manifest_version": 2
+}
